@@ -34,9 +34,9 @@
  animationType    | Animation type when opening drop down. `fade` or `sliede`   | String    |          | fade     
  label            | Picker label                                | String    |          |          
  error            | Error message to be shown                   | String    |          |          
- separatorColor   | Color for line separator between items      | String    |          | #EEEEEE
- enabledColor     | Color for the control when in enabled mode  | String    |          | #2f2f2f         
- disabledColor    | Color for the control when in disabled mode | String    |          | #8C8C8C         
+ separatorColor   | Color for line separator between items      | String    |          | `#EEEEEE`
+ enabledColor     | Color for the control when in enabled mode  | String    |          | `#2f2f2f`         
+ disabledColor    | Color for the control when in disabled mode | String    |          | `#8C8C8C`         
  cancelCaption    | Caption for `cancel` button                 | String    |          | Cancel         
  okCaption        | Caption for `OK` button                     | String    |          | OK         
  disabled         | Set the control to disabled mode            | boolean   |          | false         
