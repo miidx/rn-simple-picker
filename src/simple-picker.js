@@ -269,7 +269,7 @@ SimplePicker.propTypes = {
     pickerItemShape,
     PropTypes.string,
   ]),
-  onValueSelected: PropTypes.func.isRequired,
+  onValueSelected: PropTypes.func,
   data: PropTypes.oneOfType([
     arrayShape,
     PropTypes.arrayOf(PropTypes.string),
@@ -288,4 +288,5 @@ SimplePicker.defaultProps = {
   disabled: false,
   selectedValue: undefined,
   itemTextStyle: { fontSize: 14 },
+  onValueSelected: () => {},
 };

@@ -42,5 +42,5 @@
  disabled         | Set the control to disabled mode            | boolean   |          | false         
  itemTextStyle    | Style for drop down item text               | object    |          | {}         
  selectedValue    | Set or get selected value                   | string or object    |          |          
- onValueSelected  | Callback when user select a value           | function  | yes      |          
+ onValueSelected  | Callback when user select a value           | function  |          |          
  data             | items to be selected. Can be array of string or array of object with `label` and `value` fields | array |           | []
