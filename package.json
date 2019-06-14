@@ -1,6 +1,6 @@
 {
   "name": "@miidx/rn-simple-picker",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A drop down picker for IOS and Android",
   "main": "index.js",
   "scripts": {
