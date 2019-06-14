@@ -16,7 +16,11 @@
     "url": "https://github.com/miidx/rn-simple-picker/issues"
   },
   "homepage": "https://github.com/miidx/rn-simple-picker#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@miidx/rn-text-button": "^0.9.0",
+    "@miidx/rn-text-field": "^0.9.0",
+    "react-native-status-bar-height": "^2.3.1"
+  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
