@@ -89,7 +89,7 @@ export default class SimplePicker extends Component {
 
     onPickerValueChanged = (value) => {
       const { data } = this.props;
-      const realValue = data.find(x => (x.label || x.value ? x.label === value : x === value));
+      const realValue = data.find(x => (x.label || x.value ? x.value === value : x === value));
       this.props.onValueSelected(realValue);
       this.setState({ selectedValue: realValue });
     }
