@@ -101,7 +101,7 @@ export default class SimplePicker extends Component {
     renderPicker = () => {
       const { selectedValue } = this.props;
 
-      const displayedSelectedValue = selectedValue.label || selectedValue.value
+      const displayedSelectedValue = selectedValue && (selectedValue.label || selectedValue.value)
         ? selectedValue.value
         : selectedValue;
 
@@ -127,9 +127,9 @@ export default class SimplePicker extends Component {
     renderTextField = () => {
       const { selectedValue } = this.props;
 
-      const displayedSelectedValue = selectedValue.label || selectedValue.value
+      const displayedSelectedValue = selectedValue && (selectedValue.label || selectedValue.value)
         ? selectedValue.label
-        : selectedValue;
+        : '';
 
       if (this.props.disabled) {
         return (
